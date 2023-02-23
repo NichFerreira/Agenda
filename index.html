@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+ <head>
+  <meta charset="UTF-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--padrão dos documentos HTML-->
+  <tile> Lista de Tarefas </tile>
+  <link rel="stylesheet" href="main.css"/> <!--linkando o css com o html, para que acontece as estilizações do documento-->
+  <script src="main.js"> </script>
+ </head>
+  <body> 
+    <div>
+      <h1 class="title"> Tarefas do dia 23-02-2023 </h1>
+      <ul id="list"></ul>
+    </div>
+    <div>
+      <input 
+      type="text" 
+      id="task_name" 
+      name="task_name" 
+      placeholder="Nome da Tarefa" 
+    />
+     <button onclick="addNewTask()"> Adicionar </button>
+    </div>
+  </body>
+</html>
